@@ -61,6 +61,7 @@ Submit the order
 
 Order Item
     Click Button    order
+    Mute Run On Failure    Wait Until Page Contains Element
     Wait Until Page Contains Element    receipt    1
 
 Download the orders file
